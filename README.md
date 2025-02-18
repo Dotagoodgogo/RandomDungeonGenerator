@@ -1,59 +1,58 @@
-# RandomDungeonGenerator
- 
-## 🎮 Play the Game!
-[Click here to play on itch.io!](https://dotagood.itch.io/randomdungeongenerator)
+# 🏰 **Dungeon Game Procedural Generation**
 
+## **📜 Introduction**
+This project explores the dungeon map generation methods inspired by *The Binding of Isaac* and other rogue-like games.
 
-Dungeon Game Procedural Generation
+## **💡 Inspiration**
+In January, I played *The Binding of Isaac* for over **200 hours**, completely immersed in its **procedural dungeon generation**. The randomness made every run feel fresh and exciting. However, after finishing the game, I wondered:  
+*"What would it take to create such a complex system?"*
 
-Introduction
+During my **CTIN 544** class, my professor demonstrated **Excel-based game design** using a game called *Minotaur*. Different numbers in Excel represented various terrains, allowing for **easy visualization** of game maps. When I saw this, I had a realization:  
+*"How can I create a random map like this programmatically?"*  
 
-This project explores the dungeon map generation methods used in The Binding of Isaac and other rogue-like games.
-
-Inspiration
-
-In January, I spent over 200 hours playing The Binding of Isaac, deeply captivated by the randomness and unpredictability of dungeon crawlers. However, after finishing the game, my biggest takeaway was simply how fun it was. Creating a game of this scale, though, clearly requires a large development team.
-
-This realization sparked an idea: How could I replicate a similar procedural generation system on my own?
-
-During my CTIN 544 class, the professor introduced the concept of using Excel for game design. While working on a game called Minotaur, he demonstrated how different numbers in an Excel sheet could represent different terrains in the game. When I saw the map visualized in Excel, I started wondering:
-“What kind of algorithm could randomly generate such a map?”
-
-Then, it hit me—random generation is at the core of dungeon games. My mind immediately flashed back to The Binding of Isaac. What if I could develop my own procedural dungeon generator as part of my coursework? I realized this would be an excellent trade for a CTIN 544 assignment.
+Since **procedural generation is the heart of dungeon crawlers**, I decided to implement my own **random dungeon generator** as part of my coursework.
 
 ---
-Implementation Steps
 
-Step 1: Researching Procedural Dungeon Generation
+## **🛠 Implementation Steps**
+### **1️⃣ Researching Procedural Dungeon Generation**
+I watched various tutorials and read articles on **random map generation**. However, I found most explanations either **too simple or too complex**, so I **started coding from scratch** using my own logic.
 
-I watched several videos and read articles on procedural generation techniques, but I found most approaches either too simple or overly complex. So, instead of overanalyzing, I decided to dive right in and start coding based on my own understanding.
+### **2️⃣ Designing the Room Structure**
+To create an *Isaac*-like dungeon, I built a **base room prefab** with the following elements:
+- 🏠 **A floor tile**
+- 🚪 **Four doors** (up, down, left, right)
+- 🧱 **Walls surrounding the room**
 
-Step 2: Designing the Room Structure
+This serves as the **foundation** for all rooms in the dungeon.
 
-To create an Isaac-like dungeon, I designed a base GameObject that includes:
-	•	A floor tile
-	•	Four doors (up, down, left, and right)
-	•	Walls enclosing the room
+### **3️⃣ Writing the Dungeon Generation Algorithm**
+I divided the procedural generation process into **three key phases**:
 
-This served as the basic template for every dungeon room.
+#### **🛤 Phase 1: Generating the Main Pathway**
+- Used a **random walk algorithm** to generate a **linear path from the spawn room to the boss room**.
+- Stored dungeon layout in a **matrix**, where:
+  - `1` = **Normal room**
+  - `2` = **Boss room**
 
-Step 3: Writing the Code
+#### **🌿 Phase 2: Adding Side Branches**
+- To create **more exploration paths**, I added **extra rooms branching from the main path**.
+- **Constraint:** Each newly generated room **must have exactly one connecting door**, preventing isolated areas.
 
-I divided the implementation into three key phases:
+#### **🏗 Phase 3: Placing Rooms and Managing Doors**
+- Tracked **room positions** in a list.
+- A function **checks adjacent rooms** and **hides unnecessary doors**, ensuring proper connectivity.
+- Converted **matrix data into world coordinates**, **starting from the center** and expanding outward.
 
-Phase 1: Generating the Main Pathway
-	•	I used a random walk algorithm to generate a linear path from the spawn room to the boss room.
-	•	A matrix records the dungeon layout:
-	•	1 represents a normal room.
-	•	2 represents the boss room.
+---
 
-Phase 2: Adding Side Branches
-	•	To make the dungeon more diverse, I generated extra rooms branching off the main path.
-	•	Constraint: Each newly generated room must have exactly one door (ensuring a structured and fair layout).
+## **🎮 Play the Game!**
+You can try the **procedural dungeon generator** here:  
+👉 [**Play on Itch.io**](https://dotagood.itch.io/randomdungeongenerator)
 
-Phase 3: Placing Rooms and Managing Doors
-	•	I recorded the exact position of each room.
-	•	A function checks neighboring rooms and hides unnecessary doors, ensuring correct connectivity.
-	•	The matrix data is then mapped to world coordinates, with room placement originating from the screen’s center and expanding outward.
+Or embed it directly into this README:
+
+```html
+<iframe frameborder="0" src="https://dotagood.itch.io/randomdungeongenerator" width="800" height="600"></iframe>
 
 
