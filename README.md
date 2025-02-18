@@ -2,7 +2,9 @@
 
 ## 📜 Introduction  
 This project explores **procedural dungeon generation**, inspired by *The Binding of Isaac* and similar roguelike games.  
-
+<div align = "center">
+   <img src="https://github.com/user-attachments/assets/188ff806-9b32-4012-94a7-b938e0b46925" width="500">
+<div>
 ---
 
 ## 🎮 Inspiration  
