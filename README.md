@@ -3,6 +3,8 @@
 ## Introduction
 This project explores the map generation techniques used in *The Binding of Isaac*.
 
+![Dungeon Map Example](https://upload.wikimedia.org/wikipedia/commons/7/7d/Procedural_Map_Example.png)
+
 ## Inspiration
 In January, I spent over 200 hours playing *The Binding of Isaac*. I was deeply fascinated by the sense of randomness in dungeon games. However, once I finished the game, I was left with a simple realization: it was an enjoyable experience, but such a large-scale production required a massive team.
 
@@ -12,6 +14,8 @@ During my CTIN544 class, the professor introduced the use of Excel in game desig
 
 ### Step 1: Research
 I watched several videos and read articles about dungeon procedural generation. However, many implementations were either too simple or overly complex. Based on my own ideas, I decided to start coding right away.
+
+![Research Process](https://upload.wikimedia.org/wikipedia/commons/6/60/Research_Process.png)
 
 ### Step 2: Creating a Basic Room
 To simulate an Isaac-like room, I set up a *GameObject* consisting of:
@@ -23,6 +27,9 @@ This completed the basic room design.
 
 ### Step 3: Implementing the Algorithm
 The dungeon generation consists of three steps:
+
+![Dungeon Algorithm Flow](https://upload.wikimedia.org/wikipedia/commons/3/3a/Flowchart.png)
+
 1. **Generating the Main Path:**
    - I used *random walk* to create a pathway from the spawn room to the boss room.
    - A matrix records the map layout:
@@ -57,19 +64,16 @@ Once these improvements are complete, I want to explore other dungeon generation
 - 2D dungeon-based *Metroidvania* games (*Dead Cells*)
 - 3D dungeon exploration games (*The Legend of Zelda: The Wind Waker*)
 
+![Metroidvania Example](https://upload.wikimedia.org/wikipedia/commons/5/58/Metroidvania_Map.png)
+
 ## A Bold Idea: Randomly Generated FPS Maps
 I noticed that some *Counter-Strike* maps share structured layouts. What if maps in FPS games like *Counter-Strike* or *Valorant* were procedurally generated? How would randomized maps impact the overall gameplay experience?
+
+![FPS Map Example](https://upload.wikimedia.org/wikipedia/commons/d/d2/FPS_Level_Design.png)
 
 ---
 
 This document outlines my initial thoughts on procedural dungeon generation and future exploration. Stay tuned for further updates!
 
-
-## **🎮 Play the Game!**
-You can try the **procedural dungeon generator** here:  
-👉 [**Play on Itch.io**](https://dotagood.itch.io/randomdungeongenerator)
-
-
-bit.ly/StructuredData-Minotaur
 
 
