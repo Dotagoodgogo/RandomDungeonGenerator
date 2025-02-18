@@ -34,7 +34,6 @@ With these thoughts, I **traded one of my CTIN 544 assignments** for this projec
 ### 🛠 **Step 1: Researching Procedural Generation**  
 I explored various videos and articles explaining dungeon generation techniques. However, I found most to be **either too simple or overly complex**, so I decided to start coding based on my own logic.
 
-
 <p align="center">
     <iframe width="560" height="315" src="https://www.youtube.com/watch?v=rBY2Dzej03A" frameborder="0" allowfullscreen></iframe>
 </p>
