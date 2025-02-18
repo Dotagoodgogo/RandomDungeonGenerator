@@ -80,7 +80,7 @@ This procedural dungeon generator is just the **first prototype**. My ultimate g
    - Allow developers to control **room size, layout density, and difficulty scaling**.  
 
 2. **Expanded Room Variety**  
-   - Introduce **larger rooms** and **irregularly shaped layouts** for more dynamic dungeon designs.  
+   - Introduce **larger rooms** and **irregularly shaped rooms** for more dynamic dungeon designs.  
 
 3. **Special Room Types**  
    - 🎁 **Treasure Rooms**  
