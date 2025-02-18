@@ -25,8 +25,9 @@ During my **CTIN 544** course, my professor demonstrated how Excel could be used
 👉 **[View the Sample](https://docs.google.com/spreadsheets/d/1Gni2NLv4U_fvIccR21YbUcfSlahaI2mznOcw0Enf8Ko/edit?gid=1892812712#gid=1892812712)** 
 
 That moment sparked an idea:  
+- **The map is really cool.** 
 - **What algorithm could I use to generate such a dungeon map?**  
-- **Isn’t procedural generation the core of dungeon crawlers?**  
+ 
 
 With these thoughts, I **traded one of my CTIN 544 assignments** for this project, exploring procedural dungeon generation.
 
