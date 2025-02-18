@@ -20,7 +20,7 @@ In January, I spent over **200 hours** playing *The Binding of Isaac*, completel
 However, after finishing the game, I was left wondering:  
 *"How are these dungeons generated?"*  
 
-During my one of my courses, my professor demonstrated how Excel could be used for game design. In a game called *Minotaur*, he visualized an entire map using Excel, representing different terrains with **numerical values**.  
+During one of my courses, my professor demonstrated how Excel could be used for game design. In a game called *Minotaur*, he visualized an entire map using Excel, representing different terrains with **numerical values**.  
 
 👉 **[View the Sample](https://docs.google.com/spreadsheets/d/1Gni2NLv4U_fvIccR21YbUcfSlahaI2mznOcw0Enf8Ko/edit?gid=1892812712#gid=1892812712)** 
 
