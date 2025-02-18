@@ -28,9 +28,6 @@ That moment sparked an idea:
 - **The map is really cool.** 
 - **What algorithm could I use to generate such a dungeon map?**  
  
-
-With these thoughts, I **traded one of my CTIN 544 assignments** for this project, exploring procedural dungeon generation.
-
 ---
 
 ## 🔍 Development Process  
