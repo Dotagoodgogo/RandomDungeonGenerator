@@ -50,9 +50,7 @@ I divided the procedural generation process into **three key phases**:
 You can try the **procedural dungeon generator** here:  
 👉 [**Play on Itch.io**](https://dotagood.itch.io/randomdungeongenerator)
 
-Or embed it directly into this README:
 
-```html
-<iframe frameborder="0" src="https://dotagood.itch.io/randomdungeongenerator" width="800" height="600"></iframe>
+bit.ly/StructuredData-Minotaur
 
 
