@@ -8,7 +8,7 @@ This project explores **procedural dungeon generation**, inspired by *The Bindin
 ## 🎮 Inspiration  
 In January, I spent over **200 hours** playing *The Binding of Isaac*, completely immersed in the **randomness and replayability** of dungeon exploration.  
 <div align = "center">
-   <img src="![image](https://github.com/user-attachments/assets/188ff806-9b32-4012-94a7-b938e0b46925)" width="500">
+   <img src="https://github.com/user-attachments/assets/188ff806-9b32-4012-94a7-b938e0b46925" width="500">
 <div>
 
 
