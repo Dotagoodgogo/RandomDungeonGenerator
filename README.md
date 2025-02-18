@@ -100,7 +100,7 @@ This procedural dungeon generator is just the **first prototype**. My ultimate g
 
 Once this procedural system is refined, I want to **expand it to other game genres**:  
 - **2D Side-Scrolling Dungeon Games** (*e.g., Dead Cells*)
-- **3D Procedural Dungeon Games** (*e.g., The Legend of Zelda-inspired dungeons*) 
+- **3D Procedural Dungeon Games** (*e.g., Windblown*) 
 - **Randomly Generated FPS Maps** (*What if CS:GO or Valorant had procedurally generated maps?*)
 - > 🤔 *How would procedural FPS maps impact game balance and strategy?*  
 > - Would it create **fresh gameplay experiences** every match?  
