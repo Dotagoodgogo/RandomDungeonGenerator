@@ -32,6 +32,10 @@ That moment sparked an idea:
 
 ## 🔍 Development Process  
 
+<div align = "center">
+   <img src="https://habrastorage.org/webt/ed/du/2d/eddu2dfisomjl0r8v9pkrw7paqs.gif" width="500">
+</div>
+
 ### 🛠 **Step 1: Researching Procedural Generation**  
 I explored various videos and articles explaining dungeon generation techniques. However, I found most to be **either too simple or overly complex**, so I decided to start coding based on my own logic.
 
