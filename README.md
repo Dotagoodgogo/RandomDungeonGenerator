@@ -1,4 +1,4 @@
-# 🏰 Procedural Dungeon Generation
+# 🏰 Random Dungeon Generator
 ## 🎮 Play the Game!  
 
 👉 **[Try me](https://dotagood.itch.io/randomdungeongenerator)** 
